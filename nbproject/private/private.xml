@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/E:/gameProject/src/main/KeyHandler.java</file>
+            <file>file:/E:/gameProject/src/main/Main.java</file>
+            <file>file:/E:/gameProject/src/object/OBJ_Desk.java</file>
+            <file>file:/E:/gameProject/src/main/config.txt</file>
+            <file>file:/E:/gameProject/src/object/OBJ_Knife.java</file>
+            <file>file:/E:/gameProject/src/object/OBJ_YellowKey.java</file>
+            <file>file:/E:/gameProject/src/entity/Player.java</file>
+            <file>file:/E:/gameProject/src/main/Sound.java</file>
+            <file>file:/E:/gameProject/src/object/OBJ_ExitDoor.java</file>
+            <file>file:/E:/gameProject/src/object/OBJ_Tree.java</file>
+            <file>file:/E:/gameProject/src/main/AssetSetter.java</file>
+            <file>file:/E:/gameProject/src/main/Config.java</file>
+            <file>file:/E:/gameProject/src/entity/D_Ghost.java</file>
+            <file>file:/E:/gameProject/src/entity/Entity.java</file>
+            <file>file:/E:/gameProject/src/object/OBJ_GreenKey.java</file>
+            <file>file:/E:/gameProject/src/tile_interactive/IT_Grass.java</file>
+            <file>file:/E:/gameProject/src/object/OBJ_Axe.java</file>
+            <file>file:/E:/gameProject/src/object/OBJ_ExitKey.java</file>
+            <file>file:/E:/gameProject/src/object/OBJ_GrassScissors.java</file>
+            <file>file:/E:/gameProject/src/tile/Tile.java</file>
+            <file>file:/E:/gameProject/src/object/OBJ_Ring.java</file>
+            <file>file:/E:/gameProject/src/tile/TileManager.java</file>
+            <file>file:/E:/gameProject/src/main/Gamepanel.java</file>
+            <file>file:/E:/gameProject/src/main/UI.java</file>
+            <file>file:/E:/gameProject/src/main/CollisionChecker.java</file>
+            <file>file:/E:/gameProject/src/object/OBJ_Healthpotion.java</file>
+            <file>file:/E:/gameProject/src/object/OBJ_YellowDoor.java</file>
+            <file>file:/E:/gameProject/src/ghost/GHOST_BadGhost.java</file>
+            <file>file:/E:/gameProject/src/tile_interactive/IT_Wood1.java</file>
+            <file>file:/E:/gameProject/src/object/OBJ_Water.java</file>
+            <file>file:/E:/gameProject/src/tile_interactive/InteractiveTile.java</file>
+            <file>file:/E:/gameProject/src/object/OBJ_GreenDoor.java</file>
+            <file>file:/E:/gameProject/src/main/UtilityTool.java</file>
+        </group>
+    </open-files>
+</project-private>
