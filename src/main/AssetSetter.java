@@ -1,9 +1,7 @@
 package main;
 
 import entity.D_Ghost;
-import entity.Entity;
 import ghost.GHOST_BadGhost;
-import java.util.Objects;
 import object.OBJ_Axe;
 import object.OBJ_Desk;
 import object.OBJ_ExitDoor;

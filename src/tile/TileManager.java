@@ -1,12 +1,9 @@
 package tile;
 
 import java.awt.Graphics2D;
-import java.awt.image.BufferedImage;
-import java.awt.image.ImageObserver;
 import java.io.BufferedReader;
 import java.io.InputStream;
 import java.io.InputStreamReader;
-import java.util.Objects;
 import javax.imageio.ImageIO;
 import main.Gamepanel;
 import main.UtilityTool;
@@ -122,7 +119,7 @@ public class TileManager {
             if (worldX - gp.tileSize * 2 < gp.player.worldX + gp.player.screenX) {
                if (worldY + gp.tileSize * 2 > gp.player.worldY - gp.player.screenY) {
                   if (worldY - gp.tileSize * 2 < gp.player.worldY + gp.player.screenY) {
-                     g2.drawImage(tile[tileNum].image, screenX, screenY, (ImageObserver)null);
+                     g2.drawImage(tile[tileNum].image, screenX, screenY, null);
                   }
                }
             }

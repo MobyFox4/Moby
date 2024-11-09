@@ -1,7 +1,6 @@
 package tile_interactive;
 
 import entity.Entity;
-import java.util.Objects;
 import main.Gamepanel;
 
 public class IT_Grass extends InteractiveTile {

@@ -1,8 +1,6 @@
 package main;
 
 import entity.Entity;
-import java.awt.Rectangle;
-import java.util.Objects;
 
 public class CollisionChecker {
 

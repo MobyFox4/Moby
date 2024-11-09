@@ -4,17 +4,12 @@ import java.awt.AlphaComposite;
 import java.awt.Graphics2D;
 import java.awt.Rectangle;
 import java.awt.image.BufferedImage;
-import java.awt.image.ImageObserver;
 import java.util.ArrayList;
-import java.util.Objects;
 import javax.imageio.ImageIO;
 import main.Gamepanel;
 import main.KeyHandler;
-import main.UI;
 import main.UtilityTool;
-import object.OBJ_ExitKey;
 import object.OBJ_Knife;
-import tile_interactive.InteractiveTile;
 
 public class Player extends Entity {
 
@@ -83,7 +78,7 @@ public class Player extends Entity {
     }
 
     public void getPlayerAttackImage() {
-        int var10003;
+
         if (currentWeapon.type == 3) {
             attackLeft = setupPlayer("player_Attackleft", gp.tileSize * 2, gp.tileSize * 2);
             attackRight = setupPlayer("player_Attackright", gp.tileSize * 2, gp.tileSize * 2);

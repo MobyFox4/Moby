@@ -2,7 +2,6 @@ package main;
 
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
-import java.util.Objects;
 
 public class KeyHandler implements KeyListener {
 
@@ -30,36 +29,30 @@ public class KeyHandler implements KeyListener {
         }
         if (gp.gameState == gp.playState) {
             playState(code);
-        } else {
-
-            if (gp.gameState == gp.pauseState) {
-                pauseState(code);
-            } else {
-                if (gp.gameState == gp.dialogueState) {
-                    dialogueState(code);
-                } else {
-                    if (gp.gameState == gp.inventorystate) {
-                        inventoryState(code);
-                    } else {
-                        if (gp.playState == gp.gameOverState) {
-                            gameOverState(code);
-                        } else {
-                            if (gp.gameState == gp.passState) {
-                                passState(code);
-                            } else {
-                                if (gp.gameState == gp.winState) {
-                                    winState(code);
-                                }
-                            }
-                        }
-                    }
-                }
-            }
+        } 
+        else if (gp.gameState == gp.pauseState) {
+            pauseState(code);
+        } 
+        else if (gp.gameState == gp.dialogueState) {
+            dialogueState(code);
+        } 
+        else if (gp.gameState == gp.inventorystate) {
+            inventoryState(code);
+        } 
+        else if (gp.gameState == gp.gameOverState) {
+            gameOverState(code);
+        } 
+        else if (gp.gameState == gp.passState) {
+            passState(code);
+        } 
+        else if (gp.gameState == gp.winState) {
+            winState(code);
         }
 
     }
 
     public void titleState(int code) {
+
         if (code == KeyEvent.VK_W) {
             gp.playSE(8);
             gp.ui.commandNum--;
@@ -76,7 +69,7 @@ public class KeyHandler implements KeyListener {
             }
         }
 
-        if (code == 10) {
+        if (code == KeyEvent.VK_ENTER) {
             if (gp.ui.commandNum == 0) {
                 gp.currentMap = 0;
                 gp.setupGame();
@@ -212,6 +205,7 @@ public class KeyHandler implements KeyListener {
     }
 
     public void gameOverState(int code) {
+
         if (code == KeyEvent.VK_W) {
             gp.ui.commandNum--;
             if (gp.ui.commandNum < 0) {
@@ -222,7 +216,7 @@ public class KeyHandler implements KeyListener {
         }
 
         if (code == KeyEvent.VK_S) {
-            gp.ui.commandNum++;
+            ++gp.ui.commandNum;
             if (gp.ui.commandNum > 1) {
                 gp.ui.commandNum = 0;
             }

@@ -1,7 +1,6 @@
 package object;
 
 import entity.Entity;
-import java.util.Objects;
 import main.Gamepanel;
 
 public class OBJ_GreenKey extends Entity {

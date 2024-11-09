@@ -9,11 +9,8 @@ import java.awt.Graphics2D;
 import java.awt.GraphicsDevice;
 import java.awt.GraphicsEnvironment;
 import java.awt.image.BufferedImage;
-import java.awt.image.ImageObserver;
 import java.util.ArrayList;
-import java.util.Collections;
 import javax.swing.JPanel;
-import main.Gamepanel;
 import tile.TileManager;
 import tile_interactive.InteractiveTile;
 
@@ -217,7 +214,7 @@ public class Gamepanel extends JPanel implements Runnable {
 
    public void drawToScreen() {
       Graphics g = this.getGraphics();
-      g.drawImage(this.tempScreen, 0, 0, this.screenWidth2, this.screenHeight2, (ImageObserver)null);
+      g.drawImage(this.tempScreen, 0, 0, this.screenWidth2, this.screenHeight2, null);
       g.dispose();
    }
 
